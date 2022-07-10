@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Clinica Odontologica</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/get_odontologo.js"></script>
+</head>
+<body>
+<div class="contenedor">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/odontologosLista.html/">Todos</a>
+        </li>
+    </ul>
+
+    <div id="div_odontologo_table">
+        <h1>Odontólogos</h1>
+        <div class="tabla">
+            <table id="odontologoTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th class="text">Nombre</th>
+                    <th class="text">Apellido</th>
+                </tr>
+                </thead>
+                <tbody id="odontologoTableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<style>
+    * {
+    box-sizing: border-box;
+    }
+    body {
+    background: rgb(203,246,255);
+    background: radial-gradient(circle, rgba(203,246,255,1) 0%, rgba(168,240,255,1) 100%);
+    text-align: center;
+    }
+    .contenedor {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10%;
+    box-shadow: 4px 4px 4px -2px gray;
+    text-align: center;
+    color: rgb(90, 90, 90);
+    }
+    .tabla {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 40%;
+    }
+    .text {
+    color: gray;
+    }
+    a {
+    background-color: rgb(109, 137, 238);
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 2px -2px gray;
+    }
+</style>
+</body>
+</html>

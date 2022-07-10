@@ -1,0 +1,13 @@
+2022-04-20 00:32:23 ERROR GlobalExceptions:20 - Request method 'POST' not supported
+2022-04-20 00:36:13 ERROR GlobalExceptions:20 - Request method 'POST' not supported
+2022-04-20 01:56:01 ERROR GlobalExceptions:20 - No se puede borrar el odontologo con id: 99, error al borrar
+2022-04-21 17:01:03 ERROR GlobalExceptions:20 - No se puede borrar el odontologo con id: 99, error al borrar
+2022-04-21 17:23:07 ERROR GlobalExceptions:20 - Request method 'POST' not supported
+2022-04-21 17:23:34 ERROR GlobalExceptions:20 - detached entity passed to persist: com.dh.integradora.entities.Domicilio; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.dh.integradora.entities.Domicilio
+2022-04-22 14:45:06 ERROR GlobalExceptions:20 - could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-04-22 14:47:01 ERROR GlobalExceptions:20 - could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-04-22 14:47:49 ERROR GlobalExceptions:20 - could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-04-23 02:40:11 INFO  TurnoService:29 - Lista de turnos obtenida
